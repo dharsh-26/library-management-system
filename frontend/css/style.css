@@ -1,0 +1,133 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Hero Section */
+section{
+    padding: 50px 0;
+}
+
+.display-4{
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+/* Login & Register Cards */
+.login-card,
+.register-card{
+    width: 100%;
+    max-width: 450px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Cards */
+.card{
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h3,
+.card h4,
+.card h5{
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn{
+    border-radius: 8px;
+}
+
+.btn-primary{
+    padding: 10px 20px;
+}
+
+/* Form */
+.form-control,
+.form-select{
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13,110,253,0.3);
+}
+
+/* Tables */
+.table{
+    background: white;
+}
+
+.table th{
+    text-align: center;
+}
+
+.table td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Dashboard Numbers */
+#totalBooks,
+#availableBooks,
+#issuedBooks{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width:768px){
+
+    .display-4{
+        font-size: 2rem;
+    }
+
+    .login-card,
+    .register-card{
+        margin: 20px;
+    }
+
+    .table{
+        font-size: 14px;
+    }
+
+    .btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
