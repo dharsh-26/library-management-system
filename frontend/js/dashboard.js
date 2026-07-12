@@ -18,7 +18,7 @@ if (user) {
 // Fetch books and update dashboard
 async function loadDashboard() {
     try {
-        const response = await fetch("http://localhost:5000/api/books", {
+        const response = await fetch("https://library-management-system-6mc0.onrender.com/api/books", {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`
